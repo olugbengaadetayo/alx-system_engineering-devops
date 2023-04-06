@@ -46,3 +46,5 @@ frontend olugbengaadetayo-frontend-https
 
 backend olugbengaadetayo-backend
         balance roundrobin
+	server 121874-web-01 34.203.75.98:80 check
+        server 121874-web-02 100.25.147.189:80 check
